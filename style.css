@@ -6,16 +6,16 @@
 }
 
 body{
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #000814;
     color: #F6F6F6;
 }
-img{
+.foto__perfil{
     height: 500px;
 }
 .apresentacao{
-    margin: 10% 15%;
+    margin: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,6 +51,9 @@ img{
 
 }
 .apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
     /* background-color: #FFC300; */
     border: 2px solid #FFC300;
@@ -63,6 +66,15 @@ img{
     color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
 }
-.logo{
-    height: 5px;
+.apresentacao__links__link:hover{
+    background-color: #001d3d;
+}
+.rodape{
+    padding: 24px;
+    color: #000814;
+    background-color:  #FFD60A;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
