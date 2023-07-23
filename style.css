@@ -11,6 +11,12 @@ body{
     background-color: #000814;
     color: #F6F6F6;
 }
+.cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F6F6F6;
+}
 .foto__perfil{
     height: 500px;
 }
