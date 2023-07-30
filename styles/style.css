@@ -30,7 +30,7 @@ body{
     height: 500px;
 }
 .apresentacao{
-    padding: 5% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,7 +45,7 @@ body{
     color: #FFD60A;
 }
 .apresentacao__conteudo__titulo{
-    font-family: 'Krona One', sans-serif;;
+    font-family: 'Krona One', sans-serif;
     font-size: 36px;
 }
 .apresentacao__conteudo__texto{
@@ -96,3 +96,27 @@ body{
 .texto{
     padding: 2% 0% 0% 15%;
 }
+.curriculo{
+    padding: 8% 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo__curriculo{
+    width: 615px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo__curriculo__titulo , .conteudo__estudos__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    color: #FFC300;
+}
+.conteudo__curriculo__paragrafo, .conteudo__estudos__p {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+
+
