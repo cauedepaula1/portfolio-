@@ -7,13 +7,28 @@
     <title>Sobre mim</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a href="index.html" class="cabecalho__menu__link" >Home</a>
-            <a href="about.html" class="cabecalho__menu__link" >Sobre mim</a>
-            <a href="curriculo.html" class="cabecalho__menu__link" >Currículo</a>
-        </nav>
+    <header  class="cabecalho">
+            <nav class="cabecalho__menu">
+                <ul class="cabecalho__menu">
+                    <li class="nav-item"><a href="index.html" class="cabecalho__menu__link" >Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="cabecalho__menu__link" >Sobre mim</a></li>
+                    <li class="nav-item"><a href="curriculo.html" class="cabecalho__menu__link" >Currículo</a></li>
+                </ul>
+            </nav>
+            <div class="mobile__menu__icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/icons8-menu-50.png" ></button>
+            </div>
+            <div class="mobile__menu">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="cabecalho__menu__link" >Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="cabecalho__menu__link" >Sobre mim</a></li>
+                    <li class="nav-item"><a href="curriculo.html" class="cabecalho__menu__link" >Currículo</a></li>
+                </ul>
+            </div>
+
+
     </header>
+    <script src="assets/js/script.js"></script>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
                 <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
@@ -22,7 +37,7 @@
                 <p class="apresentacao__conteudo__texto">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores ipsum delis forum birol parela maxime infena. Excepteur sint occaecat cupidatat non.
                 </p>
         </section>
-        <img class="foto__perfil" src="assets/WhatsApp Image 2022-11-15 at 21.34.24.jpeg" alt="foto com meu rosto">
+        <img class="apresentacao__imagem" src="assets/WhatsApp Image 2023-08-02 at 23.55.08.jpeg" alt="foto com meu rosto">
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Cauê</p>
