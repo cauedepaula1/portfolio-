@@ -24,11 +24,12 @@ body{
     color: var(--cor-secundaria);
 }
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 0%;
 }
 .cabecalho__menu{
     list-style: none;
     display: flex;
+    justify-content: center;
     gap: 80px;
 
 }
