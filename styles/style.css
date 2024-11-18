@@ -120,6 +120,13 @@ body{
     flex-direction: column;
     display: none;
 }
+.btn-primary{
+    background-color: #001d3d;
+}
+.card{
+    border-color: #001d3d;
+    background-color: #F6F6F6;
+}
 @media screen and (max-width: 542px){
     .cabecalho__menu__mobile{
         display: none;
