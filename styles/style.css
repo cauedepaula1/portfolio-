@@ -129,8 +129,15 @@ body{
     background-color: #001d3d;
 }
 .card{
+    
     border-color: #001d3d;
     background-color: #F6F6F6;
+}
+.apresentacaod{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (max-width: 542px){
     .cabecalho__menu__mobile{
