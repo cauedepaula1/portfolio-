@@ -180,7 +180,9 @@ body{
     .cabecalho__menu{
         justify-content: center;
     }
-
+    .apresentacao__links__navegacao{
+        padding:21.5px 10px;
+    }
     .apresentacao{
         flex-direction: column-reverse;
         gap: 10px;
