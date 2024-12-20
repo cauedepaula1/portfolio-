@@ -20,3 +20,18 @@ menuItens.forEach(function (item) {
     });
 });
 
+var res2 = window.document.getElementById("titulojs")
+var texto = "Bem vinda(o) ao meu portfólio!"
+var interval = 90;
+
+function digito(element, texto, interval){
+    var escrita = texto.split("").reverse();
+    var typer = setInterval(function(){
+        if(!escrita.length){
+            return clearInterval(typer)
+        }
+        var next = escrita.pop();
+        element.innerHTML += next;
+    },interval);
+}
+digito(res2,texto,interval);
