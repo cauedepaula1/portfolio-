@@ -21,8 +21,8 @@ menuItens.forEach(function (item) {
 });
 
 var res2 = window.document.getElementById("titulojs")
-var texto = "Bem vinda(o) ao meu portfólio!"
-var interval = 90;
+var texto = "Bem vindo(a) ao meu portfólio!"
+var interval = 60;
 
 function digito(element, texto, interval){
     var escrita = texto.split("").reverse();
@@ -35,3 +35,19 @@ function digito(element, texto, interval){
     },interval);
 }
 digito(res2,texto,interval);
+
+var res3 = window.document.getElementById("sobre")
+var texto1 = "Sobre mim"
+var intervalo = 150;
+
+function digito2(elemento, texto1, intervalo){
+    var escrito = texto1.split("").reverse();
+    var tipo = setInterval(function(){
+        if(!escrito.length){
+            return clearInterval(tipo)
+        }
+        var inicio = escrito.pop();
+        elemento.innerHTML += inicio;
+    }, intervalo);
+}
+digito2(res3, texto1, interval);
