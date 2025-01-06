@@ -171,6 +171,10 @@ body{
     .open{
         display: block;
     }
+    .apresentacaod{
+        flex-direction: column-reverse;
+    }
+
 }
 
 @media (max-width:1200px){
@@ -203,3 +207,11 @@ body{
         background-color: #FFC300;
     }
 }
+.apresentacaod {
+    margin-top: 80px;
+    gap: 60px;
+    padding: 20px; /* Adiciona um espaço ao redor dos cards */
+  }
+
+
+  
